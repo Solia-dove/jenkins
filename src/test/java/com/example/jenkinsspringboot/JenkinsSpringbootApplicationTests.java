@@ -18,6 +18,7 @@ class JenkinsSpringbootApplicationTests {
     void contextLoads() {
         logger.info("Test case executing.....");
         logger.info("Test case executing second log statement.....");
+        logger.info("Test case executing third log statement.....");
 
         assertEquals(true,true);
     }
