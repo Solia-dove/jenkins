@@ -17,6 +17,8 @@ class JenkinsSpringbootApplicationTests {
     @Test
     void contextLoads() {
         logger.info("Test case executing.....");
+        logger.info("Jenkin integration tests.....");
+
         logger.info("Test case executing second log statement.....");
         logger.info("Test case executing third log statement.....");
         logger.info("Test case executing fourth log statement.....");
